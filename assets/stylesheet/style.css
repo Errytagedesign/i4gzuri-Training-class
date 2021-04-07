@@ -1,0 +1,178 @@
+/*======= Navigation ========*/
+
+nav {
+
+display: flex;
+justify-content:space-around;
+margin-left: auto;
+width: 20%;
+font-size: 15px;
+
+padding: 10px;
+}
+
+nav img {
+
+    height: 25px;
+}
+
+
+
+nav a {
+
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    
+    text-decoration: underline;
+}
+
+
+
+/*======= Custome style ========*/
+
+body {
+
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+
+}
+
+body p {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*======= Main Content ========*/
+section {
+
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    
+}
+
+section {
+    width: 60%;
+
+}
+
+input {
+
+    width: 80%;
+    padding: 15px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+span #magnify {
+
+    height: 25px;
+    display: inline;
+    position: relative;
+    bottom: 35px;
+    left: -270px;
+}
+
+
+span #voice {
+
+    height: 25px;
+    display: inline;
+    position: relative;
+    bottom: 35px;
+    left: 270px;
+    
+}
+
+
+
+
+
+.btn {
+
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: -150px;
+    color: grey;
+   
+
+}
+
+.btn:hover {
+
+    border: 1px solid grey;
+}
+
+
+section h5 {
+
+    color: grey;
+    text-decoration: none;
+    
+}
+
+section h5 a {
+
+     text-decoration: none;
+}
+
+section h5 a:hover {
+
+    text-decoration: underline;
+}
+
+/*======= Footer ========*/
+
+
+footer {
+
+    background-color: rgb(238, 238, 238);
+    margin: 95px 0 0 0;
+    padding-bottom: 18px;
+}
+
+footer a {
+
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+
+footer {
+
+    color: rgb(124, 124, 124);
+   
+}
+
+.footer-top {
+
+    padding: 20px;
+}
+
+.footer-bottom {
+
+    padding: 20px;
+        display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+
+.left a {
+
+    margin-right: 5px;
+}
+
+.right a {
+
+    margin-right: 5px;
+}
